@@ -1,5 +1,5 @@
 import { colors } from '@prols-ignite-ui/tokens'
-import { createStitches } from '@stitches/react'
+import { createStitches, defaultThemeMap } from '@stitches/react'
 import { fontSizes } from './../../../tokens/src/font-sizes'
 import { fontWeights } from './../../../tokens/src/font-weights'
 import { fonts } from './../../../tokens/src/fonts'
@@ -17,6 +17,11 @@ export const {
   createTheme,
   config,
 } = createStitches({
+  themeMap: {
+    ...defaultThemeMap,
+    height: 'space',
+    width: 'space',
+  },
   theme: {
     colors,
     fontSizes,
