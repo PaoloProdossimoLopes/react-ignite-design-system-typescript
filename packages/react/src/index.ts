@@ -1,1 +1,3 @@
-console.log('ok')
+import { colors } from '@prols-ignite-ui/tokens';
+
+colors.black
