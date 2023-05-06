@@ -11,12 +11,6 @@ export default {
 
 export const Primary: StoryObj<CheckboxProps> = {}
 
-export const Secondary: StoryObj<CheckboxProps> = {
-  args: {
-    variant: 'secondary',
-  },
-}
-
 export const DisabledButton: StoryObj<CheckboxProps> = {
   args: {
     disabled: true,
