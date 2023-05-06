@@ -16,4 +16,12 @@ export const Strongest: StoryObj<HeadingProps> = {
     children: 'H1 text',
     as: 'h1',
   },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'Por padrao o heading sempre sera um `h2`, mas é possivel trocar utilziando o `as?: ...`',
+      },
+    },
+  },
 }
