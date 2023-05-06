@@ -1,13 +1,13 @@
-import { Box, BoxProps } from '@prols-ignite-ui/react'
+import { Box, BoxProps, Text } from '@prols-ignite-ui/react'
 import { Meta, StoryObj } from '@storybook/react'
 
 export default {
-  title: 'Box',
+  title: 'Surface/Box',
   component: Box,
   args: {
     children: (
       <>
-        <p style={{ color: '#fff' }}>Testando o box</p>
+        <Text>Testando o box</Text>
       </>
     ),
   },
