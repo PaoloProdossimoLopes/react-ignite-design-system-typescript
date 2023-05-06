@@ -25,6 +25,7 @@
     "@vitejs/plugin-react": "^4.0.0",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.8",
+    "turbo": "^1.9.3",
     "vite": "^4.3.5"
   },
   "dependencies": {
